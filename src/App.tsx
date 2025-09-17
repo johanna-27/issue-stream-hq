@@ -11,6 +11,8 @@ import Departments from "./pages/Departments";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
+import "leaflet/dist/leaflet.css";
+
 
 const queryClient = new QueryClient();
 

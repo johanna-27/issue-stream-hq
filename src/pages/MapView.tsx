@@ -4,14 +4,29 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/components/ui/button";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { mockCivicIssues } from "@/data/mockData";
-import { MapPin, Filter, Layers, BarChart } from "lucide-react";
+import { MapPin, Filter, Layers } from "lucide-react";
+
+// ✅ Import Leaflet
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+const customIcon = new L.Icon({
+  iconUrl: "/img.png",          // must be in /public
+  iconRetinaUrl: "/custom-marker.png",    // same if no 2x version
+  //shadowUrl: "/custom-marker-shadow.png", // optional
+  iconSize: [32, 32],     // size of the icon
+  iconAnchor: [16, 32],   // point of the icon which will correspond to marker's location
+  popupAnchor: [0, -32],  // point from which the popup should open relative to the iconAnchor
+});
+
+
 
 export default function MapView() {
   const [selectedWard, setSelectedWard] = useState<string>("all");
   const [showHeatmap, setShowHeatmap] = useState(false);
 
-  const filteredIssues = selectedWard === "all" 
-    ? mockCivicIssues 
+  const filteredIssues = selectedWard === "all"
+    ? mockCivicIssues
     : mockCivicIssues.filter(issue => issue.ward === selectedWard);
 
   const wards = Array.from(new Set(mockCivicIssues.map(issue => issue.ward))).sort();
@@ -38,8 +53,8 @@ export default function MapView() {
             </SelectContent>
           </Select>
           
-          <Button 
-            variant={showHeatmap ? "default" : "outline"} 
+          <Button
+            variant={showHeatmap ? "default" : "outline"}
             onClick={() => setShowHeatmap(!showHeatmap)}
           >
             <Layers className="w-4 h-4 mr-2" />
@@ -129,54 +144,33 @@ export default function MapView() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="h-[600px] bg-muted rounded-lg flex items-center justify-center relative overflow-hidden">
-              {/* Placeholder Map */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/10"></div>
-              
-              {/* Mock Map Markers */}
-              {filteredIssues.slice(0, 8).map((issue, index) => (
-                <div
-                  key={issue.id}
-                  className="absolute transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group"
-                  style={{
-                    left: `${20 + (index % 4) * 20}%`,
-                    top: `${20 + Math.floor(index / 4) * 30}%`
-                  }}
-                >
-                  <div className={`w-3 h-3 rounded-full ${
-                    issue.urgency === 'critical' ? 'bg-urgent' :
-                    issue.urgency === 'high' ? 'bg-warning' :
-                    issue.urgency === 'medium' ? 'bg-primary' : 'bg-success'
-                  } animate-pulse shadow-lg`}></div>
-                  
-                  {/* Tooltip */}
-                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity bg-card border border-border rounded-lg p-2 shadow-lg min-w-48 z-10">
-                    <p className="font-medium text-sm">{issue.title}</p>
-                    <p className="text-xs text-muted-foreground">{issue.location}</p>
-                    <div className="flex items-center gap-2 mt-1">
-                      <StatusBadge urgency={issue.urgency as any}>
-                        {issue.urgency}
-                      </StatusBadge>
-                      <StatusBadge status={issue.status as any}>
-                        {issue.status}
-                      </StatusBadge>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div className="h-[600px] rounded-lg overflow-hidden">
+              <MapContainer
+                  center={([19.0760, 72.8777] as [number, number])}// ✅ Mumbai
+  zoom={12}
+  style={{ height: "100%", width: "100%" }}
+>
+  <TileLayer
+  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+/>
 
-              {/* Map Overlay Text */}
-              <div className="text-center z-10 bg-card/80 backdrop-blur-sm rounded-lg p-6 border border-border">
-                <MapPin className="w-12 h-12 text-primary mx-auto mb-3" />
-                <h3 className="text-lg font-semibold mb-2">Interactive City Map</h3>
-                <p className="text-muted-foreground text-sm mb-3">
-                  Showing {filteredIssues.length} issues 
-                  {selectedWard !== "all" && ` in ${selectedWard}`}
-                </p>
-                <p className="text-xs text-muted-foreground">
-                  Click markers to view issue details • Use filters to refine view
-                </p>
-              </div>
+
+                {filteredIssues.map(issue => (
+                  <Marker key={issue.id} position={issue.coordinates}>
+                    <Popup>
+                      <div>
+                        <p className="font-medium">{issue.title}</p>
+                        <p className="text-sm text-muted-foreground">{issue.location}</p>
+                        <div className="flex gap-2 mt-2">
+                          <StatusBadge urgency={issue.urgency as any}>{issue.urgency}</StatusBadge>
+                          <StatusBadge status={issue.status as any}>{issue.status}</StatusBadge>
+                        </div>
+                      </div>
+                    </Popup>
+                  </Marker>
+                ))}
+              </MapContainer>
             </div>
           </CardContent>
         </Card>

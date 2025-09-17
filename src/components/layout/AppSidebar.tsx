@@ -74,21 +74,29 @@ export function AppSidebar() {
 
   return (
     <Sidebar className={isCollapsed ? "w-16" : "w-64"} collapsible="icon">
-      <SidebarContent className="bg-sidebar border-r border-sidebar-border">
+      <SidebarContent className="bg-[image:var(--sidebar-background-gradient)] border-r border-sidebar-border text-[var(--sidebar-foreground)]">
+
+
         {/* Header */}
         <div className="p-6 border-b border-sidebar-border">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <Shield className="w-5 h-5 text-primary-foreground" />
-            </div>
-            {!isCollapsed && (
-              <div>
-                <h1 className="font-bold text-lg text-sidebar-foreground">CivicAdmin</h1>
-                <p className="text-xs text-sidebar-foreground/70">Issue Management</p>
-              </div>
-            )}
-          </div>
-        </div>
+  <div className="flex items-center space-x-2">
+    {/* Replace Shield with your logo */}
+    <div className="w-8 h-8 flex items-center justify-center">
+      <img
+        src="/logo.png"   // ✅ your logo file in public/
+        alt="Nivaran Logo"
+        className="w-8 h-8 object-contain"
+      />
+    </div>
+
+    {!isCollapsed && (
+      <div>
+        <h1 className="font-bold text-lg text-sidebar-foreground">Nivaran</h1>
+        <p className="text-xs text-sidebar-foreground/70">Issue Management</p>
+      </div>
+    )}
+  </div>
+</div>
 
         {/* Main Navigation */}
         <SidebarGroup>

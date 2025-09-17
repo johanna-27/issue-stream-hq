@@ -2,16 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* Civic Dashboard Design System - Professional Government Interface */
 
 @layer base {
   :root {
     /* Core Background & Text */
-    --background: 210 17% 98%;
+    --background: 210 17% 97%;        /* slightly darker than 98% */
     --foreground: 222 84% 5%;
 
     /* Card System */
-    --card: 0 0% 100%;
+    --card: 0 0% 98%;                 /* light gray instead of pure white */
     --card-foreground: 222 84% 5%;
 
     /* Popover System */
@@ -28,7 +29,7 @@
     --secondary-foreground: 222 47% 11%;
 
     /* Subtle Backgrounds */
-    --muted: 210 13% 96%;
+    --muted: 210 13% 94%;             /* stronger than 96% */
     --muted-foreground: 215 25% 27%;
 
     /* Accent Colors */
@@ -40,15 +41,15 @@
     --success-foreground: 0 0% 98%;
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 98%;
-    --urgent: 0 84% 60%;
+    --urgent: 0 84% 58%;              /* slightly darker for visibility */
     --urgent-foreground: 0 0% 98%;
-    
+
     /* Destructive States */
-    --destructive: 0 84% 60%;
+    --destructive: 0 72% 45%;         /* deeper red */
     --destructive-foreground: 0 0% 98%;
 
     /* Borders & Inputs */
-    --border: 214 32% 91%;
+    --border: 214 20% 85%;            /* darker for clearer separation */
     --input: 214 32% 91%;
     --ring: 214 84% 44%;
 
@@ -56,12 +57,12 @@
     --gradient-primary: linear-gradient(135deg, hsl(214 84% 44%), hsl(214 84% 38%));
     --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 30%));
     --gradient-warning: linear-gradient(135deg, hsl(38 92% 50%), hsl(38 92% 44%));
-    --gradient-urgent: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 84% 54%));
+    --gradient-urgent: linear-gradient(135deg, hsl(0 72% 45%), hsl(0 72% 40%));
 
     /* Professional Shadows */
-    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
-    --shadow-large: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.15), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.15), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-large: 0 10px 15px -3px hsl(0 0% 0% / 0.15), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
 
     /* Smooth Transitions */
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -69,60 +70,72 @@
     --radius: 0.5rem;
 
     /* Sidebar Variables */
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 214 84% 44%;
+    /* Sidebar Variables */
+--sidebar-background: 221.2 83.2% 53.3%; /* fallback blue */
+--sidebar-background-gradient: linear-gradient(
+  135deg,
+  #2563EB, /* Deep Blue */
+  #22C55E  /* Fresh Green */
+);
+
+--sidebar-foreground: 0 0% 100%;       /* white text */
+--sidebar-primary: 0 0% 100%;          /* active text (white) */
+--sidebar-primary-foreground: 221.2 83.2% 53.3%; /* deep blue for active highlight */
+
+--sidebar-accent: 220 14% 96%;         /* light gray sections */
+--sidebar-accent-foreground: 220.9 39.3% 11%; /* dark gray text */
+--sidebar-border: 220 13% 91%;
+--sidebar-ring: 221.2 83.2% 53.3%;
+
+/* ✅ Alert color */
+--sidebar-alert: #F59E0B; /* Amber */
+
   }
 
   .dark {
     --background: 222 84% 5%;
     --foreground: 0 0% 98%;
 
-    --card: 222 84% 5%;
+    --card: 217 33% 14%;              /* dark gray cards */
     --card-foreground: 0 0% 98%;
 
-    --popover: 222 84% 5%;
+    --popover: 222 84% 8%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 222 47% 11%;
-    --primary-hover: 0 0% 92%;
+    --primary: 214 84% 44%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 214 84% 38%;
 
     --secondary: 217 33% 18%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 217 33% 18%;
+    --muted: 217 33% 20%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 217 33% 18%;
+    --accent: 217 33% 25%;
     --accent-foreground: 0 0% 98%;
 
-    --success: 142 76% 36%;
+    --success: 142 72% 38%;
     --success-foreground: 0 0% 98%;
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 98%;
-    --urgent: 0 84% 60%;
+    --urgent: 0 72% 45%;
     --urgent-foreground: 0 0% 98%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 217 33% 18%;
-    --input: 217 33% 18%;
-    --ring: 213 27% 84%;
+    --border: 217 33% 25%;
+    --input: 217 33% 25%;
+    --ring: 214 84% 44%;
 
-    --sidebar-background: 240 6% 10%;
+    --sidebar-background: 224 64% 33%;   /* deep blue #1E3A8A in dark mode */
     --sidebar-foreground: 240 5% 96%;
-    --sidebar-primary: 224 76% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 4% 16%;
-    --sidebar-accent-foreground: 240 5% 96%;
-    --sidebar-border: 240 4% 16%;
+    --sidebar-primary: 214 84% 44%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 217 33% 20%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 217 33% 25%;
     --sidebar-ring: 214 84% 44%;
   }
 }
