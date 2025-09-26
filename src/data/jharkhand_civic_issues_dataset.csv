@@ -1,0 +1,201 @@
+Citizen Name,Issue,Image Description,Location,"GeoTag (Lat,Long)",Date,Time,Severity Level,Status,Department
+Deepak Kumar,Potholes,Photo showing potholes in locality,Dhanbad,"23.72757, 85.39257",26-08-2025,09:04,Medium,In Progress,Electricity Board
+Vikash Sahu,Potholes,Photo showing potholes in locality,Dhanbad,"23.80509, 86.46888",29-08-2025,13:26,High,Resolved,Transport Dept
+Amit Kumar,Potholes,Photo showing potholes in locality,Bokaro,"23.30953, 85.46161",10-09-2025,17:10,Medium,Reported,Water Dept
+Neha Verma,Potholes,Photo showing potholes in locality,Bokaro,"23.42993, 85.52507",07-09-2025,03:35,Low,Reported,Water Dept
+Anil Singh,Potholes,Photo showing potholes in locality,Giridih,"23.43344, 85.70351",09-09-2025,06:38,Low,In Progress,Transport Dept
+Vikash Sahu,Potholes,Photo showing potholes in locality,Hazaribagh,"24.29211, 86.85266",26-08-2025,03:00,Medium,In Progress,Transport Dept
+Rajesh Gupta,Potholes,Photo showing potholes in locality,Giridih,"23.57855, 86.76255",22-09-2025,05:12,Medium,In Progress,PWD
+Deepak Kumar,Potholes,Photo showing potholes in locality,Bokaro,"23.61762, 86.17467",15-09-2025,10:03,Low,Reported,PWD
+Amit Kumar,Potholes,Photo showing potholes in locality,Giridih,"24.40921, 86.62135",27-08-2025,12:27,Medium,In Progress,Transport Dept
+Deepak Kumar,Potholes,Photo showing potholes in locality,Ranchi,"23.30578, 86.15191",20-09-2025,04:57,Low,In Progress,Transport Dept
+Arjun Prasad,Streetlights,Photo showing streetlights in locality,Ramgarh,"24.24813, 85.48227",01-09-2025,05:09,Medium,Reported,Water Dept
+Deepak Kumar,Streetlights,Photo showing streetlights in locality,Ramgarh,"23.64867, 86.82188",10-09-2025,20:07,Medium,Resolved,Electricity Board
+Sunita Kumari,Streetlights,Photo showing streetlights in locality,Bokaro,"23.78023, 85.92943",19-09-2025,11:10,High,Reported,Electricity Board
+Manoj Yadav,Streetlights,Photo showing streetlights in locality,Ramgarh,"23.77654, 85.52702",21-09-2025,01:31,High,In Progress,PWD
+Amit Kumar,Streetlights,Photo showing streetlights in locality,Bokaro,"24.48138, 85.53784",03-09-2025,22:35,Low,In Progress,Transport Dept
+Suresh Das,Streetlights,Photo showing streetlights in locality,Giridih,"23.86832, 86.17084",07-09-2025,13:30,Medium,Resolved,Electricity Board
+Pooja Sharma,Streetlights,Photo showing streetlights in locality,Deoghar,"24.28351, 85.53218",15-09-2025,16:55,Medium,Resolved,PWD
+Neha Verma,Streetlights,Photo showing streetlights in locality,Giridih,"24.10917, 86.65568",06-09-2025,07:45,Low,Resolved,Water Dept
+Amit Kumar,Streetlights,Photo showing streetlights in locality,Ramgarh,"23.69815, 85.30154",28-08-2025,14:36,Medium,Resolved,Electricity Board
+Anita Devi,Streetlights,Photo showing streetlights in locality,Deoghar,"23.64112, 85.85148",16-09-2025,21:05,Medium,In Progress,Municipal Corp
+Suresh Das,Garbage,Photo showing garbage in locality,Hazaribagh,"23.6136, 86.82588",20-09-2025,21:25,High,Reported,Transport Dept
+Arjun Prasad,Garbage,Photo showing garbage in locality,Dhanbad,"23.53278, 85.95689",26-08-2025,23:02,High,Resolved,Transport Dept
+Vikash Sahu,Garbage,Photo showing garbage in locality,Ramgarh,"24.04697, 86.69642",17-09-2025,20:07,High,In Progress,PWD
+Vikash Sahu,Garbage,Photo showing garbage in locality,Ramgarh,"23.88346, 85.58407",01-09-2025,16:54,Medium,Reported,Transport Dept
+Rajesh Gupta,Garbage,Photo showing garbage in locality,Hazaribagh,"24.12066, 85.29633",14-09-2025,21:25,High,Reported,Water Dept
+Pooja Sharma,Garbage,Photo showing garbage in locality,Giridih,"24.00424, 85.47215",05-09-2025,02:35,Medium,Resolved,Water Dept
+Arjun Prasad,Garbage,Photo showing garbage in locality,Deoghar,"23.41703, 86.51593",13-09-2025,19:18,Medium,Reported,Electricity Board
+Arjun Prasad,Garbage,Photo showing garbage in locality,Ranchi,"23.83691, 85.36382",29-08-2025,23:11,Low,Resolved,Municipal Corp
+Suresh Das,Garbage,Photo showing garbage in locality,Bokaro,"23.44856, 85.76072",25-09-2025,02:49,High,In Progress,Transport Dept
+Amit Kumar,Garbage,Photo showing garbage in locality,Giridih,"24.36326, 85.10293",12-09-2025,08:20,Medium,Resolved,PWD
+Amit Kumar,Water leakage,Photo showing water leakage in locality,Ranchi,"23.44821, 85.23779",02-09-2025,07:08,High,In Progress,PWD
+Sunita Kumari,Water leakage,Photo showing water leakage in locality,Ranchi,"23.67938, 85.83092",26-08-2025,08:07,Low,Reported,Water Dept
+Kavita Kumari,Water leakage,Photo showing water leakage in locality,Dhanbad,"24.26534, 85.4295",31-08-2025,16:14,Low,Reported,Electricity Board
+Anita Devi,Water leakage,Photo showing water leakage in locality,Ramgarh,"23.51905, 85.40497",08-09-2025,12:36,Low,In Progress,PWD
+Kavita Kumari,Water leakage,Photo showing water leakage in locality,Ranchi,"23.34696, 85.28952",16-09-2025,16:42,High,In Progress,Electricity Board
+Manoj Yadav,Water leakage,Photo showing water leakage in locality,Giridih,"23.94695, 86.16353",22-09-2025,02:59,Low,Resolved,Municipal Corp
+Manoj Yadav,Water leakage,Photo showing water leakage in locality,Dhanbad,"23.56996, 85.18565",18-09-2025,15:13,High,Resolved,PWD
+Sunita Kumari,Water leakage,Photo showing water leakage in locality,Dhanbad,"23.74761, 85.96189",16-09-2025,07:03,Low,Resolved,PWD
+Amit Kumar,Water leakage,Photo showing water leakage in locality,Ranchi,"24.4578, 86.64849",02-09-2025,01:53,High,Reported,Municipal Corp
+Anil Singh,Water leakage,Photo showing water leakage in locality,Ramgarh,"24.03169, 85.54557",11-09-2025,07:26,Medium,Resolved,Water Dept
+Rajesh Gupta,Sewage overflow,Photo showing sewage overflow in locality,Dhanbad,"23.99055, 86.42971",10-09-2025,02:45,High,In Progress,Electricity Board
+Meena Sharma,Sewage overflow,Photo showing sewage overflow in locality,Deoghar,"24.34439, 85.6679",15-09-2025,08:10,Low,Reported,Transport Dept
+Anil Singh,Sewage overflow,Photo showing sewage overflow in locality,Dhanbad,"24.20578, 86.87481",15-09-2025,00:45,Medium,Resolved,Water Dept
+Kavita Kumari,Sewage overflow,Photo showing sewage overflow in locality,Dhanbad,"23.42916, 86.58029",15-09-2025,20:45,Low,In Progress,Electricity Board
+Suresh Das,Sewage overflow,Photo showing sewage overflow in locality,Ranchi,"24.28094, 85.2945",31-08-2025,16:19,Low,In Progress,PWD
+Ravi Singh,Sewage overflow,Photo showing sewage overflow in locality,Ranchi,"23.61053, 85.19354",14-09-2025,02:05,Medium,Reported,Municipal Corp
+Deepak Kumar,Sewage overflow,Photo showing sewage overflow in locality,Giridih,"23.96629, 85.77831",28-08-2025,20:26,Low,Reported,Water Dept
+Deepak Kumar,Sewage overflow,Photo showing sewage overflow in locality,Ramgarh,"23.8605, 86.77403",14-09-2025,02:48,Low,In Progress,Electricity Board
+Vikash Sahu,Sewage overflow,Photo showing sewage overflow in locality,Ranchi,"24.3643, 86.40456",12-09-2025,05:06,Low,In Progress,Municipal Corp
+Kavita Kumari,Sewage overflow,Photo showing sewage overflow in locality,Ranchi,"23.7273, 85.35761",26-08-2025,20:02,Medium,In Progress,Electricity Board
+Rajesh Gupta,Encroachments,Photo showing encroachments in locality,Giridih,"24.09177, 85.69564",19-09-2025,16:38,Low,Reported,Water Dept
+Vikash Sahu,Encroachments,Photo showing encroachments in locality,Deoghar,"24.48863, 86.80265",07-09-2025,17:59,Low,Resolved,Transport Dept
+Anita Devi,Encroachments,Photo showing encroachments in locality,Ranchi,"23.78111, 85.71866",15-09-2025,02:22,Medium,Reported,Water Dept
+Anita Devi,Encroachments,Photo showing encroachments in locality,Ranchi,"24.12849, 85.73333",14-09-2025,00:08,Medium,Reported,Municipal Corp
+Sunita Kumari,Encroachments,Photo showing encroachments in locality,Bokaro,"24.21643, 86.5443",03-09-2025,18:34,Medium,Reported,Municipal Corp
+Vikash Sahu,Encroachments,Photo showing encroachments in locality,Dhanbad,"23.35588, 85.37151",16-09-2025,04:14,High,Reported,Municipal Corp
+Amit Kumar,Encroachments,Photo showing encroachments in locality,Jamshedpur,"23.95245, 85.87947",09-09-2025,23:08,Low,In Progress,Transport Dept
+Suresh Das,Encroachments,Photo showing encroachments in locality,Deoghar,"23.82999, 85.72257",15-09-2025,03:47,High,In Progress,PWD
+Kavita Kumari,Encroachments,Photo showing encroachments in locality,Ramgarh,"23.33044, 86.06096",07-09-2025,10:03,Medium,Reported,Electricity Board
+Sunita Kumari,Encroachments,Photo showing encroachments in locality,Bokaro,"23.86025, 85.11734",06-09-2025,19:06,Low,In Progress,PWD
+Ravi Singh,Illegal parking,Photo showing illegal parking in locality,Deoghar,"23.46733, 86.68491",31-08-2025,09:58,Medium,Resolved,PWD
+Amit Kumar,Illegal parking,Photo showing illegal parking in locality,Ramgarh,"24.33911, 86.36962",02-09-2025,22:06,High,Resolved,Transport Dept
+Neha Verma,Illegal parking,Photo showing illegal parking in locality,Bokaro,"24.24484, 86.62589",06-09-2025,13:44,Medium,Resolved,Water Dept
+Anita Devi,Illegal parking,Photo showing illegal parking in locality,Hazaribagh,"23.54157, 86.47057",13-09-2025,21:43,Medium,Resolved,Transport Dept
+Pooja Sharma,Illegal parking,Photo showing illegal parking in locality,Giridih,"23.47509, 86.03606",16-09-2025,10:47,High,In Progress,Transport Dept
+Kavita Kumari,Illegal parking,Photo showing illegal parking in locality,Ramgarh,"23.40131, 85.39432",12-09-2025,11:34,High,Resolved,PWD
+Pooja Sharma,Illegal parking,Photo showing illegal parking in locality,Deoghar,"23.3752, 86.44997",17-09-2025,15:53,Low,Resolved,Municipal Corp
+Anita Devi,Illegal parking,Photo showing illegal parking in locality,Bokaro,"24.26056, 85.47436",17-09-2025,07:49,Low,Resolved,Municipal Corp
+Deepak Kumar,Illegal parking,Photo showing illegal parking in locality,Giridih,"24.23859, 85.79468",21-09-2025,16:08,Low,Resolved,Electricity Board
+Ravi Singh,Illegal parking,Photo showing illegal parking in locality,Hazaribagh,"24.36351, 85.53612",01-09-2025,08:27,Medium,In Progress,PWD
+Rajesh Gupta,Broken footpaths,Photo showing broken footpaths in locality,Hazaribagh,"24.43552, 85.30811",08-09-2025,08:14,Low,Reported,Water Dept
+Manoj Yadav,Broken footpaths,Photo showing broken footpaths in locality,Jamshedpur,"23.45712, 86.36739",31-08-2025,20:18,Low,In Progress,Electricity Board
+Suresh Das,Broken footpaths,Photo showing broken footpaths in locality,Bokaro,"23.95614, 85.65145",29-08-2025,08:55,Low,In Progress,Electricity Board
+Rajesh Gupta,Broken footpaths,Photo showing broken footpaths in locality,Ramgarh,"24.29777, 86.26837",25-09-2025,19:06,High,Reported,Municipal Corp
+Ravi Singh,Broken footpaths,Photo showing broken footpaths in locality,Dhanbad,"23.71238, 86.80472",24-09-2025,22:25,High,Resolved,Electricity Board
+Sunita Kumari,Broken footpaths,Photo showing broken footpaths in locality,Giridih,"24.29694, 85.8171",22-09-2025,23:41,Medium,Resolved,Transport Dept
+Neha Verma,Broken footpaths,Photo showing broken footpaths in locality,Bokaro,"23.64986, 85.5146",22-09-2025,15:56,Low,In Progress,Electricity Board
+Rajesh Gupta,Broken footpaths,Photo showing broken footpaths in locality,Ramgarh,"23.47352, 86.28735",28-08-2025,09:21,Medium,Resolved,Electricity Board
+Kavita Kumari,Broken footpaths,Photo showing broken footpaths in locality,Ramgarh,"23.7021, 85.83216",20-09-2025,04:22,Low,In Progress,PWD
+Anil Singh,Broken footpaths,Photo showing broken footpaths in locality,Hazaribagh,"24.33702, 85.96825",13-09-2025,08:57,Low,Reported,Water Dept
+Deepak Kumar,Open manholes,Photo showing open manholes in locality,Hazaribagh,"24.25556, 86.41493",17-09-2025,01:42,High,Resolved,Electricity Board
+Sunita Kumari,Open manholes,Photo showing open manholes in locality,Dhanbad,"24.09894, 86.01277",10-09-2025,04:48,High,Resolved,Electricity Board
+Neha Verma,Open manholes,Photo showing open manholes in locality,Giridih,"24.33379, 85.66148",30-08-2025,00:47,High,In Progress,Electricity Board
+Suresh Das,Open manholes,Photo showing open manholes in locality,Deoghar,"23.65458, 86.10607",14-09-2025,02:12,High,Resolved,Water Dept
+Suresh Das,Open manholes,Photo showing open manholes in locality,Bokaro,"24.15182, 85.97149",10-09-2025,12:54,Medium,Reported,Transport Dept
+Arjun Prasad,Open manholes,Photo showing open manholes in locality,Giridih,"23.74591, 86.03478",18-09-2025,07:03,High,Resolved,PWD
+Vikash Sahu,Open manholes,Photo showing open manholes in locality,Jamshedpur,"23.40079, 86.2861",11-09-2025,04:36,Low,Reported,PWD
+Deepak Kumar,Open manholes,Photo showing open manholes in locality,Hazaribagh,"24.30165, 85.71681",05-09-2025,21:44,High,Reported,Electricity Board
+Manoj Yadav,Open manholes,Photo showing open manholes in locality,Hazaribagh,"23.40905, 85.68081",14-09-2025,23:45,High,In Progress,PWD
+Pooja Sharma,Open manholes,Photo showing open manholes in locality,Dhanbad,"23.87724, 86.50676",07-09-2025,01:59,High,Reported,Transport Dept
+Manoj Yadav,Traffic signal,Photo showing traffic signal in locality,Bokaro,"24.27738, 85.3486",29-08-2025,11:58,Low,Reported,Electricity Board
+Pooja Sharma,Traffic signal,Photo showing traffic signal in locality,Ranchi,"23.86164, 86.45127",13-09-2025,21:46,Medium,In Progress,Electricity Board
+Deepak Kumar,Traffic signal,Photo showing traffic signal in locality,Giridih,"24.10107, 85.5701",15-09-2025,06:15,Low,Resolved,Transport Dept
+Rajesh Gupta,Traffic signal,Photo showing traffic signal in locality,Deoghar,"24.2912, 85.66298",05-09-2025,18:02,Low,Resolved,Electricity Board
+Vikash Sahu,Traffic signal,Photo showing traffic signal in locality,Giridih,"24.34847, 85.52757",17-09-2025,22:59,Low,Reported,PWD
+Deepak Kumar,Traffic signal,Photo showing traffic signal in locality,Ranchi,"23.38177, 85.24802",02-09-2025,19:01,Low,Reported,Water Dept
+Rajesh Gupta,Traffic signal,Photo showing traffic signal in locality,Jamshedpur,"24.31533, 86.38803",23-09-2025,03:24,Low,Resolved,Municipal Corp
+Anita Devi,Traffic signal,Photo showing traffic signal in locality,Jamshedpur,"24.00321, 86.12075",03-09-2025,17:35,Medium,Reported,Electricity Board
+Sunita Kumari,Traffic signal,Photo showing traffic signal in locality,Giridih,"23.77661, 85.37546",05-09-2025,08:41,Low,Reported,Electricity Board
+Anita Devi,Traffic signal,Photo showing traffic signal in locality,Ramgarh,"24.06165, 85.3435",20-09-2025,10:27,Medium,Reported,Electricity Board
+Kavita Kumari,Tree cutting,Photo showing tree cutting in locality,Hazaribagh,"23.64698, 85.87698",11-09-2025,11:27,Medium,Resolved,Electricity Board
+Meena Sharma,Tree cutting,Photo showing tree cutting in locality,Ramgarh,"24.2852, 86.38011",17-09-2025,00:27,Medium,Reported,PWD
+Anil Singh,Tree cutting,Photo showing tree cutting in locality,Hazaribagh,"24.23142, 85.33513",04-09-2025,07:31,Low,Reported,PWD
+Manoj Yadav,Tree cutting,Photo showing tree cutting in locality,Ramgarh,"24.40113, 85.67841",09-09-2025,17:21,Low,In Progress,Municipal Corp
+Vikash Sahu,Tree cutting,Photo showing tree cutting in locality,Jamshedpur,"23.57461, 85.75852",12-09-2025,02:42,Low,Resolved,Water Dept
+Sunita Kumari,Tree cutting,Photo showing tree cutting in locality,Deoghar,"23.66851, 86.55564",21-09-2025,16:46,Medium,Reported,Transport Dept
+Sunita Kumari,Tree cutting,Photo showing tree cutting in locality,Giridih,"24.1683, 85.78711",02-09-2025,17:04,Low,Resolved,PWD
+Neha Verma,Tree cutting,Photo showing tree cutting in locality,Ranchi,"23.91215, 85.58199",16-09-2025,03:55,High,Reported,Water Dept
+Kavita Kumari,Tree cutting,Photo showing tree cutting in locality,Giridih,"24.29886, 85.54335",16-09-2025,11:29,Medium,In Progress,Electricity Board
+Pooja Sharma,Tree cutting,Photo showing tree cutting in locality,Bokaro,"23.52316, 86.59072",19-09-2025,09:19,High,Resolved,Transport Dept
+Anil Singh,Noise pollution,Photo showing noise pollution in locality,Hazaribagh,"23.42415, 85.41948",16-09-2025,04:50,Medium,Resolved,Electricity Board
+Sunita Kumari,Noise pollution,Photo showing noise pollution in locality,Dhanbad,"24.30317, 86.53366",18-09-2025,11:10,Low,In Progress,Water Dept
+Deepak Kumar,Noise pollution,Photo showing noise pollution in locality,Ramgarh,"23.39773, 85.94803",20-09-2025,23:07,Medium,In Progress,PWD
+Neha Verma,Noise pollution,Photo showing noise pollution in locality,Dhanbad,"24.10879, 85.96439",19-09-2025,11:54,High,In Progress,Transport Dept
+Manoj Yadav,Noise pollution,Photo showing noise pollution in locality,Ranchi,"23.67762, 86.47477",27-08-2025,08:43,Medium,Reported,Water Dept
+Suresh Das,Noise pollution,Photo showing noise pollution in locality,Ramgarh,"24.06407, 86.61346",20-09-2025,17:46,High,Resolved,PWD
+Anita Devi,Noise pollution,Photo showing noise pollution in locality,Giridih,"23.92367, 85.5072",07-09-2025,01:58,Low,Resolved,Municipal Corp
+Manoj Yadav,Noise pollution,Photo showing noise pollution in locality,Jamshedpur,"23.45816, 85.85561",18-09-2025,01:36,Medium,In Progress,Water Dept
+Sunita Kumari,Noise pollution,Photo showing noise pollution in locality,Jamshedpur,"24.39328, 86.71446",02-09-2025,17:45,Medium,Reported,Transport Dept
+Pooja Sharma,Noise pollution,Photo showing noise pollution in locality,Ranchi,"24.4668, 86.11499",16-09-2025,08:17,Low,Resolved,Water Dept
+Pooja Sharma,Air pollution,Photo showing air pollution in locality,Giridih,"23.41249, 86.22127",08-09-2025,09:15,Medium,Reported,PWD
+Meena Sharma,Air pollution,Photo showing air pollution in locality,Bokaro,"23.58221, 85.10847",31-08-2025,02:34,Medium,Reported,Municipal Corp
+Amit Kumar,Air pollution,Photo showing air pollution in locality,Deoghar,"24.34115, 86.56483",05-09-2025,00:16,Low,In Progress,PWD
+Suresh Das,Air pollution,Photo showing air pollution in locality,Giridih,"24.23573, 86.23313",11-09-2025,14:43,Medium,In Progress,PWD
+Arjun Prasad,Air pollution,Photo showing air pollution in locality,Giridih,"23.65958, 86.82493",21-09-2025,22:44,Medium,In Progress,PWD
+Sunita Kumari,Air pollution,Photo showing air pollution in locality,Giridih,"23.96217, 85.13081",14-09-2025,00:33,Medium,In Progress,PWD
+Kavita Kumari,Air pollution,Photo showing air pollution in locality,Giridih,"23.46104, 86.08177",27-08-2025,15:45,High,Resolved,PWD
+Kavita Kumari,Air pollution,Photo showing air pollution in locality,Hazaribagh,"23.70169, 86.00191",05-09-2025,18:00,Medium,Resolved,Water Dept
+Ravi Singh,Air pollution,Photo showing air pollution in locality,Jamshedpur,"24.17455, 86.51498",02-09-2025,12:13,Medium,Resolved,Municipal Corp
+Manoj Yadav,Air pollution,Photo showing air pollution in locality,Bokaro,"23.44568, 86.02408",04-09-2025,19:08,Low,Reported,Water Dept
+Kavita Kumari,Toilet maintenance,Photo showing toilet maintenance in locality,Dhanbad,"24.18239, 85.18182",05-09-2025,17:29,Low,Reported,Municipal Corp
+Pooja Sharma,Toilet maintenance,Photo showing toilet maintenance in locality,Bokaro,"23.84599, 85.72291",13-09-2025,18:12,High,Reported,Electricity Board
+Anita Devi,Toilet maintenance,Photo showing toilet maintenance in locality,Ramgarh,"23.52098, 86.19422",11-09-2025,14:05,High,In Progress,PWD
+Anita Devi,Toilet maintenance,Photo showing toilet maintenance in locality,Bokaro,"23.94716, 86.69485",31-08-2025,13:30,Medium,In Progress,Transport Dept
+Deepak Kumar,Toilet maintenance,Photo showing toilet maintenance in locality,Jamshedpur,"23.49406, 86.65458",06-09-2025,03:27,Medium,Resolved,Transport Dept
+Meena Sharma,Toilet maintenance,Photo showing toilet maintenance in locality,Deoghar,"23.7824, 86.36614",19-09-2025,23:25,High,In Progress,Municipal Corp
+Sunita Kumari,Toilet maintenance,Photo showing toilet maintenance in locality,Deoghar,"24.44243, 85.91335",20-09-2025,13:57,Medium,Reported,Electricity Board
+Manoj Yadav,Toilet maintenance,Photo showing toilet maintenance in locality,Dhanbad,"24.2511, 85.13213",22-09-2025,10:26,High,Reported,Electricity Board
+Pooja Sharma,Toilet maintenance,Photo showing toilet maintenance in locality,Ranchi,"23.60635, 86.36877",02-09-2025,14:27,Low,In Progress,Electricity Board
+Anil Singh,Toilet maintenance,Photo showing toilet maintenance in locality,Deoghar,"23.94024, 86.20469",13-09-2025,02:05,Medium,Resolved,Municipal Corp
+Sunita Kumari,Stray animals,Photo showing stray animals in locality,Ranchi,"24.02925, 85.87171",02-09-2025,19:43,Low,Reported,Water Dept
+Rajesh Gupta,Stray animals,Photo showing stray animals in locality,Jamshedpur,"23.66427, 86.57486",26-08-2025,20:10,Low,Resolved,Water Dept
+Arjun Prasad,Stray animals,Photo showing stray animals in locality,Deoghar,"23.56324, 86.30932",05-09-2025,05:59,High,In Progress,Transport Dept
+Pooja Sharma,Stray animals,Photo showing stray animals in locality,Jamshedpur,"23.57565, 86.22629",03-09-2025,23:47,High,Resolved,Municipal Corp
+Suresh Das,Stray animals,Photo showing stray animals in locality,Ramgarh,"23.30398, 85.47972",12-09-2025,14:07,High,Resolved,PWD
+Neha Verma,Stray animals,Photo showing stray animals in locality,Hazaribagh,"23.45432, 85.87645",14-09-2025,14:40,High,Reported,Municipal Corp
+Amit Kumar,Stray animals,Photo showing stray animals in locality,Hazaribagh,"24.0532, 85.54784",03-09-2025,19:13,Medium,Resolved,Municipal Corp
+Deepak Kumar,Stray animals,Photo showing stray animals in locality,Jamshedpur,"24.1405, 86.81845",28-08-2025,12:13,Low,Resolved,PWD
+Pooja Sharma,Stray animals,Photo showing stray animals in locality,Deoghar,"23.38993, 85.33312",05-09-2025,16:17,High,Reported,Electricity Board
+Arjun Prasad,Stray animals,Photo showing stray animals in locality,Ramgarh,"23.84526, 85.87689",07-09-2025,04:01,Low,Reported,Water Dept
+Anita Devi,Drainage,Photo showing drainage in locality,Dhanbad,"24.14644, 85.2918",16-09-2025,10:35,High,In Progress,Municipal Corp
+Pooja Sharma,Drainage,Photo showing drainage in locality,Ramgarh,"24.09202, 85.98419",07-09-2025,03:48,Medium,Resolved,Water Dept
+Neha Verma,Drainage,Photo showing drainage in locality,Bokaro,"23.33901, 85.53025",09-09-2025,00:15,High,In Progress,Municipal Corp
+Manoj Yadav,Drainage,Photo showing drainage in locality,Ramgarh,"23.71626, 86.2906",28-08-2025,12:34,Medium,In Progress,Municipal Corp
+Meena Sharma,Drainage,Photo showing drainage in locality,Bokaro,"24.35761, 86.78498",14-09-2025,11:30,Medium,Reported,Municipal Corp
+Vikash Sahu,Drainage,Photo showing drainage in locality,Bokaro,"23.34666, 86.17646",10-09-2025,10:53,Low,In Progress,Water Dept
+Meena Sharma,Drainage,Photo showing drainage in locality,Ramgarh,"23.54395, 86.7565",01-09-2025,17:27,Medium,Reported,Municipal Corp
+Amit Kumar,Drainage,Photo showing drainage in locality,Deoghar,"24.11378, 86.68135",12-09-2025,06:20,Low,Resolved,Transport Dept
+Anil Singh,Drainage,Photo showing drainage in locality,Ramgarh,"24.01726, 85.71679",31-08-2025,03:28,Medium,Reported,PWD
+Arjun Prasad,Drainage,Photo showing drainage in locality,Bokaro,"24.35156, 86.30131",05-09-2025,12:21,Low,In Progress,Municipal Corp
+Kavita Kumari,Broken signboards,Photo showing broken signboards in locality,Hazaribagh,"24.30433, 85.66689",12-09-2025,01:56,Medium,Reported,PWD
+Deepak Kumar,Broken signboards,Photo showing broken signboards in locality,Hazaribagh,"23.88169, 85.11616",06-09-2025,19:55,Low,Resolved,PWD
+Rajesh Gupta,Broken signboards,Photo showing broken signboards in locality,Ranchi,"23.64129, 86.05292",11-09-2025,19:50,High,Reported,PWD
+Meena Sharma,Broken signboards,Photo showing broken signboards in locality,Dhanbad,"24.44801, 86.78857",26-08-2025,16:38,High,Resolved,Municipal Corp
+Anita Devi,Broken signboards,Photo showing broken signboards in locality,Ramgarh,"24.09049, 86.66042",18-09-2025,02:15,High,Resolved,Electricity Board
+Sunita Kumari,Broken signboards,Photo showing broken signboards in locality,Dhanbad,"23.94907, 85.12618",19-09-2025,22:05,Low,In Progress,Transport Dept
+Manoj Yadav,Broken signboards,Photo showing broken signboards in locality,Deoghar,"23.92024, 85.31944",18-09-2025,23:58,Medium,Reported,Municipal Corp
+Amit Kumar,Broken signboards,Photo showing broken signboards in locality,Hazaribagh,"23.63336, 85.40518",12-09-2025,18:45,Medium,Resolved,Municipal Corp
+Deepak Kumar,Broken signboards,Photo showing broken signboards in locality,Ranchi,"23.58993, 86.60492",31-08-2025,03:51,High,Resolved,PWD
+Deepak Kumar,Broken signboards,Photo showing broken signboards in locality,Deoghar,"24.26227, 85.53698",16-09-2025,21:45,Medium,Resolved,Water Dept
+Ravi Singh,Electricity outage,Photo showing electricity outage in locality,Ranchi,"24.41451, 85.55023",05-09-2025,20:56,High,In Progress,PWD
+Ravi Singh,Electricity outage,Photo showing electricity outage in locality,Deoghar,"24.01736, 85.80325",21-09-2025,03:39,High,In Progress,PWD
+Amit Kumar,Electricity outage,Photo showing electricity outage in locality,Giridih,"24.30374, 85.82348",14-09-2025,23:40,Low,Resolved,Transport Dept
+Deepak Kumar,Electricity outage,Photo showing electricity outage in locality,Bokaro,"24.28934, 86.1498",30-08-2025,13:45,High,Reported,Electricity Board
+Manoj Yadav,Electricity outage,Photo showing electricity outage in locality,Hazaribagh,"23.47349, 85.39828",19-09-2025,05:33,High,Reported,Transport Dept
+Suresh Das,Electricity outage,Photo showing electricity outage in locality,Dhanbad,"23.55224, 85.40995",12-09-2025,00:06,Low,Reported,Electricity Board
+Manoj Yadav,Electricity outage,Photo showing electricity outage in locality,Hazaribagh,"23.39049, 85.57762",13-09-2025,23:43,Low,Resolved,Water Dept
+Vikash Sahu,Electricity outage,Photo showing electricity outage in locality,Ramgarh,"23.88452, 86.59855",09-09-2025,09:10,Medium,Reported,Municipal Corp
+Ravi Singh,Electricity outage,Photo showing electricity outage in locality,Deoghar,"23.59515, 85.60015",03-09-2025,02:50,High,Resolved,Water Dept
+Ravi Singh,Electricity outage,Photo showing electricity outage in locality,Hazaribagh,"23.73826, 85.77028",12-09-2025,07:18,High,In Progress,PWD
+Rajesh Gupta,Transport delay,Photo showing transport delay in locality,Jamshedpur,"24.27096, 86.65258",14-09-2025,09:01,Medium,Resolved,Electricity Board
+Ravi Singh,Transport delay,Photo showing transport delay in locality,Hazaribagh,"23.48993, 86.50323",03-09-2025,22:54,High,Resolved,Municipal Corp
+Pooja Sharma,Transport delay,Photo showing transport delay in locality,Bokaro,"23.33586, 85.24959",12-09-2025,14:00,Low,In Progress,Water Dept
+Arjun Prasad,Transport delay,Photo showing transport delay in locality,Deoghar,"23.94464, 85.68984",12-09-2025,05:16,Medium,In Progress,Electricity Board
+Anil Singh,Transport delay,Photo showing transport delay in locality,Deoghar,"23.63544, 86.10674",30-08-2025,07:21,High,Resolved,Municipal Corp
+Deepak Kumar,Transport delay,Photo showing transport delay in locality,Bokaro,"23.9497, 85.56138",02-09-2025,10:24,High,Reported,Electricity Board
+Arjun Prasad,Transport delay,Photo showing transport delay in locality,Ranchi,"23.31403, 86.52043",01-09-2025,02:20,Medium,In Progress,PWD
+Suresh Das,Transport delay,Photo showing transport delay in locality,Deoghar,"23.67539, 85.98734",08-09-2025,00:14,Medium,Reported,Electricity Board
+Manoj Yadav,Transport delay,Photo showing transport delay in locality,Bokaro,"23.43518, 85.11537",27-08-2025,05:33,Low,In Progress,Municipal Corp
+Sunita Kumari,Transport delay,Photo showing transport delay in locality,Deoghar,"23.37163, 86.21485",09-09-2025,08:53,Medium,In Progress,Municipal Corp
+Pooja Sharma,Waste burning,Photo showing waste burning in locality,Bokaro,"24.16862, 85.3844",02-09-2025,23:12,Medium,In Progress,Water Dept
+Amit Kumar,Waste burning,Photo showing waste burning in locality,Dhanbad,"23.81188, 86.39862",08-09-2025,11:24,Medium,In Progress,Transport Dept
+Meena Sharma,Waste burning,Photo showing waste burning in locality,Giridih,"23.84828, 85.8199",18-09-2025,15:37,High,Reported,Electricity Board
+Ravi Singh,Waste burning,Photo showing waste burning in locality,Hazaribagh,"23.7261, 86.76908",28-08-2025,17:18,Medium,In Progress,Electricity Board
+Kavita Kumari,Waste burning,Photo showing waste burning in locality,Bokaro,"24.29267, 85.3014",04-09-2025,21:43,Medium,Resolved,Transport Dept
+Vikash Sahu,Waste burning,Photo showing waste burning in locality,Deoghar,"23.67903, 85.22682",28-08-2025,22:56,Medium,Reported,Water Dept
+Pooja Sharma,Waste burning,Photo showing waste burning in locality,Giridih,"23.88384, 86.3747",08-09-2025,13:18,High,Reported,Water Dept
+Amit Kumar,Waste burning,Photo showing waste burning in locality,Dhanbad,"23.83617, 86.39561",23-09-2025,11:16,High,In Progress,PWD
+Neha Verma,Waste burning,Photo showing waste burning in locality,Giridih,"24.39369, 86.04432",26-08-2025,16:00,Low,Reported,PWD
+Amit Kumar,Waste burning,Photo showing waste burning in locality,Dhanbad,"24.28405, 85.81975",13-09-2025,13:14,Medium,In Progress,Electricity Board
